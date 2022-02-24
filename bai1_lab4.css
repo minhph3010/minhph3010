@@ -1,0 +1,35 @@
+strong {
+    color: brown;
+ }
+ em.doan1
+ {
+    color: red;
+ }
+ em.doan2
+ {
+    color: green;
+ }
+ em.doan3
+ {
+    color: blue;
+ }
+em
+          {
+             font-variant: small-caps;
+             font-size: 20px;
+             word-spacing: 2px;
+             letter-spacing: 1px;
+             line-height: 25px;
+          }
+          h2
+          {
+             color: white;
+             text-shadow: 0px 0px 5px red;
+
+          }
+          body
+          {
+             text-align: center;
+             
+          }
+       

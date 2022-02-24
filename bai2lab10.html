@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/lab10bai1.css">
+</head>
+
+<body>
+    <form>
+        <div class="form-group">
+            <label>Họ tên:</label>
+            <input type="text" class="form-control" />
+        </div>
+        <div>
+            <fieldset>
+                <legend>Giới tính:</legend>
+                <label><input type="radio" name="gioitinh" />Nam</label>
+                <label><input type="radio" name="gioitinh" />Nữ</label>
+            </fieldset>
+        </div>
+        <div class="form-group">
+            <label>Ngày sinh:</label>
+            <input type="date" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Điểm:</label>
+            <input type="number" min="0" max="10" step="0.25" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Nghề Nghiệp</label>
+            <input list="nghenghiep" class="form-control" />
+            <datalist id="nghenghiep">
+                <option value="Công nghiệp thông tin"></option>
+                <option value="Thiết kế đồ họa"></option>
+                <option value="Digital Marketing"></option>
+                <option value="Thiết kế website"></option>
+                <option value="Lập trình di động"></option>
+            </datalist>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Sở thích:</legend>
+                <div class="form-group">
+                    <label><input type="checkbox" name="sothich" value="1" />Thể thao</label>
+                    <label><input type="checkbox" name="sothich" value="2" />du lịch</label>
+                    <label><input type="checkbox" name="sothich" value="3" />Âm nhạc</label>
+                    <label><input type="checkbox" name="sothich" value="4" />Ẩm thực</label>
+                </div>
+            </fieldset>
+        </div>
+        <div class="form-group">
+            <label>Ghi chú:</label>
+            <textarea rows="3" cols="30" class="form-control"></textarea>
+        </div>
+        <hr>
+        <div class="form-group">
+            <button class="form-button" type="submit">Đăng Ký</button>
+            <button class="form-button" type="reset">Nhập lại</button>
+        </div>
+    </form>
+</body>
+
+</html>

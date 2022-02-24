@@ -1,0 +1,32 @@
+.column
+{
+    width: 25%;
+    float: left;
+
+}
+.san-pham 
+{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px red;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+
+}
+.san-pham .ten
+{
+font-size: larger;
+font-variant: small-caps;
+color: blueviolet;
+}
+.san-pham .img
+{
+    max-width: 95%;
+    
+}
+.san-pham .gia
+{
+    color: blue;
+    font-weight: bold;
+    font-size: larger;
+}

@@ -1,0 +1,9 @@
+.form-group {
+    color: rgb(228, 0, 0);
+    background-color: whitesmoke;
+}
+
+.form-control {
+    box-shadow: 0 0 20px rgb(215, 230, 5);
+    background-color: white;
+}

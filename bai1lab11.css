@@ -1,0 +1,38 @@
+table {
+    width: 60%;
+    border-color: rgb(47, 213, 255);
+    background-color: rgb(47, 102, 255);
+}
+
+#hang1 {
+    background-color: rgb(243, 11, 11);
+    color: white;
+}
+
+th {
+    padding: 10px 10px;
+}
+
+#hang2 {
+    background-color: rgb(50, 47, 255);
+}
+
+.time {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.doi1 {
+    color: rgb(255, 6, 110);
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.doi2 {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+tr {
+    background-color: white;
+}

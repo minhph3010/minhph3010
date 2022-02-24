@@ -1,0 +1,17 @@
+.contain{
+    height: 340px;
+    width: 800px;
+}
+.vid{
+    height: 340px;
+    width: 650px;
+    background-color: plum;
+    margin-left: 200px;
+    margin-top: 280px;
+    float: left;
+}
+.pic>a>img{
+    height: 100px;
+    width: 140px;
+    margin-top: -10px;
+}

@@ -1,0 +1,23 @@
+table {
+    width: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+
+tr:nth-child(2n) {
+    background-color: white;
+}
+
+tr:nth-child(2n+1) {
+    background-color: grey;
+}
+
+tr:first-child {
+    background-color: rgb(231, 23, 93);
+    color: white;
+}
+
+#hang2 {
+    background-color: rgba(255, 0, 98, 0.137);
+    color: white;
+}
